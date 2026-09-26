@@ -22,14 +22,16 @@ body{
 h1 {
     opacity: 0.8;
     background: linear-gradient(to right, #6a85b6, #bac8e0);
-    background-clip: text;
-    -webkit-background-clip: text;
+    background-clip: text;              
+    -webkit-background-clip: text;      
     -webkit-text-fill-color: transparent;
-    color: transparent;
+    color: transparent;                 
     text-align: center;
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+
+
 
 .main-child{
     background-color:black;
@@ -44,25 +46,8 @@ h1 {
     width:5.15rem;
     background-color:black;
     border-color:white;
+    Opacity:0.85rem;
     border:white solid 1.5px;
-
-    /* Important for button */
-    padding:0;
-    margin:0;
-    appearance:none;
-    -webkit-appearance:none;
-    border-radius:0;
-
-    cursor:pointer;
-
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:1.5rem;
-    text-align:center;
-    color:white;
-}
-
-.inp:disabled{
-    cursor:default;
 }
 
 h2{
@@ -71,18 +56,18 @@ h2{
     margin-bottom:1rem;
 }
 
-button#btn{
+button{
     font-size:1.5rem;
     border:2px solid #dda15e;
     background-color:#bc6c25;
     border-radius:10px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(69, 1, 1);
-    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #btn:hover{
-    font-size:2rem;
+    font-size: 2rem;
 }
 
 #lead{
@@ -90,8 +75,8 @@ button#btn{
     width:50%;
     background-color:#463f3a;
     margin-left:0%;
-    margin-top:0rem;
-    margin-bottom:1.5rem;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
     opacity:0.80;
     display:flex;
     flex-direction:row;
@@ -101,7 +86,7 @@ button#btn{
     height:100%;
     width:50%;
     background-color:#463f3a;
-    opacity:0.55;
+    Opacity:0.55;
     border:3px solid rgb(0, 0, 0);
 }
 
@@ -124,3 +109,10 @@ button#btn{
 #lead-child-22{
     height:70%;
 }
+
+/* #lead h1{
+    font-size:2rem;
+    margin-top:0rem;
+    color:#ffd700;
+
+}*/
