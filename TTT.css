@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    background-image:url(tic-tac-toe-page.jpg);
+    background-size:cover;
+}
+
+.main{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:1rem;
+    margin-bottom:3rem;
+}
+
+h1 {
+    opacity: 0.8;
+    background: linear-gradient(to right, #6a85b6, #bac8e0);
+    background-clip: text;              /* Standard (works in Firefox) */
+    -webkit-background-clip: text;      /* WebKit browsers */
+    -webkit-text-fill-color: transparent;
+    color: transparent;                 /* Fallback */
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.main-child{
+    background-color:black;
+    width:15.85rem;
+    height:15.85rem;
+    border:none;
+    margin-bottom:1.3rem;
+}
+
+.inp{
+    height:5.1rem;
+    width:5.15rem;
+    background-color:black;
+    border-color:white;
+    Opacity:0.85rem;
+    border:white solid 1.5px;
+}
+
+h2{
+    margin-top:0.5rem;
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+
+button{
+    font-size:1.5rem;
+    border:2px solid #dda15e;
+    background-color:#bc6c25;
+    border-radius:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(69, 1, 1);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#btn:hover{
+    font-size: 2rem;
+}
+
+#lead{
+    height:6.5rem;
+    width:50%;
+    background-color:#463f3a;
+    margin-left:0%;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    opacity:0.80;
+    display:flex;
+    flex-direction:row;
+}
+
+.lead-child{
+    height:100%;
+    width:50%;
+    background-color:#463f3a;
+    Opacity:0.55;
+    border:3px solid rgb(0, 0, 0);
+}
+
+#lead-child-11{
+    width:100%;
+    height:35%;
+    background-color:black;
+}
+
+#lead-child-21{
+    width:100%;
+    height:35%;
+    background-color:black;
+}
+
+#lead-child-12{
+    height:70%;
+}
+
+#lead-child-22{
+    height:70%;
+}
+
+/* #lead h1{
+    font-size:2rem;
+    margin-top:0rem;
+    color:#ffd700;
+
+}*/
