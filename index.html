@@ -4,33 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe</title>
-       <link rel="icon" type="image/png" href="tic.png">
-       <link rel="stylesheet" href="TTT.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="main">
-    <h1>TIC TAC TOE</h1>
-      <div id = "lead">
-           
-        <div class = "lead-child">
-            <div id ="lead-child-11"></div>
-            <div id ="lead-child-12"></div>
-        </div>
-        <div class = "lead-child">
-            <div id ="lead-child-21"></div>
-            <div id ="lead-child-22"></div>
-        </div>
-    </div>
-    <div class="main-child"><input class="inp" id ="1" style="border-top:black;border-left:black"><input class="inp" id = "2" style="border-top:black;"><input class="inp" id="3" style="border-top:black;border-right:black"><input class="inp" id = "4" style="border-left:black"><input class="inp" id = "5" ><input class="inp" id = "6" style="border-right:black;"><input class="inp" id = "7" style="border-bottom:black;border-left:black;"><input class="inp" id = "8" style="border-bottom:black"><input class="inp" id = "9" style="border-bottom:black;border-right:black"></div>
-     <h2>It's Your's Turn</h2>
-     <button id ="btn">Restart</button>
-    </div>
-     
-  
 
-    <script src = "TTT.js"></script>
+    <link rel="icon" type="image/png" href="tic.png">
+    <link rel="stylesheet" href="TTT.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <h1>TIC TAC TOE</h1>
+
+        <div id="lead">
+
+            <div class="lead-child">
+                <div id="lead-child-11"></div>
+                <div id="lead-child-12"></div>
+            </div>
+
+            <div class="lead-child">
+                <div id="lead-child-21"></div>
+                <div id="lead-child-22"></div>
+            </div>
+
+        </div>
+
+        <div class="main-child">
+
+            <button class="inp" id="1" type="button"
+                style="border-top:black;border-left:black"></button>
+
+            <button class="inp" id="2" type="button"
+                style="border-top:black"></button>
+
+            <button class="inp" id="3" type="button"
+                style="border-top:black;border-right:black"></button>
+
+            <button class="inp" id="4" type="button"
+                style="border-left:black"></button>
+
+            <button class="inp" id="5" type="button"></button>
+
+            <button class="inp" id="6" type="button"
+                style="border-right:black"></button>
+
+            <button class="inp" id="7" type="button"
+                style="border-bottom:black;border-left:black"></button>
+
+            <button class="inp" id="8" type="button"
+                style="border-bottom:black"></button>
+
+            <button class="inp" id="9" type="button"
+                style="border-bottom:black;border-right:black"></button>
+
+        </div>
+
+        <h2>It's Your's Turn</h2>
+
+        <button id="btn" type="button">Restart</button>
+
+    </div>
+
+    <script src="TTT.js"></script>
+
 </body>
 </html>
