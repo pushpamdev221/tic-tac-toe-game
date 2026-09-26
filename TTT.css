@@ -39,14 +39,16 @@ h1 {
     height:15.85rem;
     border:none;
     margin-bottom:1.3rem;
+    box-sizing:border-box;
 }
 
 .inp{
     height:5.1rem;
     width:5.15rem;
+    box-sizing:border-box;
     background-color:black;
     border-color:white;
-    Opacity:0.85rem;
+    Opacity:0.85;
     border:white solid 1.5px;
 }
 
