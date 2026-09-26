@@ -338,7 +338,7 @@ function Putcomp () {
       }
       else if(info == "C"){
           if(box1.value == "O"){
-            console.log(`Its ${Computer's won`);
+            console.log(`Its Computer's won`);
             box1.style.color = "red";
             box2.style.color = "red";
             box3.style.color = "red";
@@ -562,4 +562,3 @@ btn.addEventListener("click", function () {
       // }
 
       // event.target.removeEventListener("click", handleCellClick);
-
