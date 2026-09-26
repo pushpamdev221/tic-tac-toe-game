@@ -22,10 +22,10 @@ body{
 h1 {
     opacity: 0.8;
     background: linear-gradient(to right, #6a85b6, #bac8e0);
-    background-clip: text;              
-    -webkit-background-clip: text;      
+    background-clip: text;              /* Standard (works in Firefox) */
+    -webkit-background-clip: text;      /* WebKit browsers */
     -webkit-text-fill-color: transparent;
-    color: transparent;                 
+    color: transparent;                 /* Fallback */
     text-align: center;
     font-size: 3rem;
     margin-bottom: 1rem;
